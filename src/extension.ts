@@ -45,7 +45,7 @@ function runLinterAndShowMeme(document: vscode.TextDocument) {
   let memeImage = '';
 
   if (errorCount === 0) {
-    message = "No errors. Did you copy this from Stack Overflow?";
+    message = "No errors. You just vibe coded this didn't you?";
     memeImage = starImage;
   } else if (errorCount <= 2) {
     message = `Just ${errorCount} error(s)? Not bad for a beginner.`;
