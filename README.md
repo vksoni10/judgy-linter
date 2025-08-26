@@ -1,71 +1,43 @@
-# judgy-linter README
+Judgy Linter
+A hilarious VS Code extension that adds a touch of judgment and a meme to your coding process. This linter provides instant feedback on your code's quality, not with a boring list of errors, but with a meme.
 
-This is the README for your extension "judgy-linter". After writing up a brief description, we recommend including the following sections.
+✨ Features
+Meme-Powered Linter: Get a different meme based on your code's error count.
 
-## Features
+Automatic Activation: The linter runs automatically every time you save a file.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Manual Command: Use the Command Palette to run the linter on demand for the active file.
 
-For example if there is an image subfolder under your extension project workspace:
+Multi-Language Support: Works with any language that has a VS Code linter extension providing diagnostics (e.g., Python, Java, C/C++, TypeScript, etc.).
 
-\!\[feature X\]\(images/feature-x.png\)
+🚀 How to Use
+Install the Extension: Find and install "Judgy Linter" from the Visual Studio Code Marketplace.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Start Coding: Open any file and start writing code.
 
-## Requirements
+Automatic Linting: Just save the file (Ctrl + S or Cmd + S) and watch the magic happen! A Webview panel will pop up with a witty comment and a meme.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Manual Activation: If you want to check your progress without saving, open the Command Palette (Ctrl + Shift + P or Cmd + Shift + P), type Judgy Linter: Show Meme, and hit Enter.
 
-## Extension Settings
+🖼️ Example Output
+If you have 5 errors, you might see this:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+<p align="center">
+<img src="https://placehold.co/400x200/555/FFF?text=That's+5+errors.+You're+trying+to+get+a+bug+bounty,+aren't+you?" />
+</p>
 
-For example:
+If you have no errors, the linter might get a little suspicious:
 
-This extension contributes the following settings:
+<p align="center">
+<img src="https://placehold.co/400x200/555/FFF?text=No+errors.+Did+you+copy+this+from+Stack+Overflow?" />
+</p>
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+🛠️ Built With
+Visual Studio Code API - The core framework for building the extension.
 
-## Known Issues
+TypeScript - The language used for development.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+🤝 Contributing
+This is a fun, lighthearted project. Feel free to contribute by opening an issue or a pull request. All suggestions are welcome!
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Enjoy the Judgy Linter!
